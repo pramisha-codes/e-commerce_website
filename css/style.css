@@ -93,6 +93,16 @@ left:20px;
 
 }
 
+#mobile{
+    display:none;
+    align-items:center
+
+}
+
+ #close{
+    display:none;
+ }
+
 
 /*Home Page*/
 #hero{
@@ -968,6 +978,3 @@ padding-left:20px;
       }
 
 }
-
-
-
