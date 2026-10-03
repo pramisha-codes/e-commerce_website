@@ -650,6 +650,7 @@ footer .copyright{
 
 }
 
+
 /*Blog page */
 
 #page-header.blog-header {
@@ -860,7 +861,7 @@ padding-left:20px;
  }
 }
 
-@media (max-width:47px){
+@media (max-width:477px){
     .section-p1{
         padding:20px;
     }
@@ -920,6 +921,20 @@ padding-left:20px;
     footer .copyright{
         text-align:start;
     }
+    /* single-product */
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-pro-details{
+        width: 100%;
+        
+    }
+
 
     /* blog page*/
 
@@ -963,5 +978,3 @@ padding-left:20px;
       }
 
 }
-
-
